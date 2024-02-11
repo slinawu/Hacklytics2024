@@ -1,0 +1,66 @@
+/* Header.css */
+
+/* Set background color for the entire website */
+body {
+    background-color: #fff; /* White background color */
+  }
+  
+  /* Set styles for the header */
+  .header {
+    font-family: Arial, sans-seriff; /* Change font family to Times New Roman */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fce4ec; /* Light pink background color */
+  }
+  
+  /* Set styles for the logo container */
+  .logo-container {
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+    flex-shrink: 0;
+  }
+  
+  /* Set styles for the logo */
+  .logo {
+    width: 250px; /* Fixed width of 250px for the logo */
+    height: auto; /* Allow the browser to calculate the height proportionally */
+  }
+  
+  /* Set styles for navigation links */
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    /* display: inline-block; */
+    margin-left: 1rem;
+  }
+  
+/* Styles for Home and Demo links */
+.home-link,
+.demo-link,
+.team-link {
+    color: #000; /* Black color for Home and Demo links */
+    text-decoration: none;
+    transition: color 0.3s; /* Add smooth transition for text color change */
+}
+
+/* Change text color on hover */
+.home-link:hover,
+.demo-link:hover, 
+.team-link:hover {
+    color: #f48fb1; /* Change text color to light pink on hover */
+}
+  
+  /* Set styles for the page content */
+  .page {
+    padding: 1rem; /* Add padding to the page content */
+    font-family: "Times New Roman", Times, serif; /* Set the font family for the page content */
+  }  

@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Styles for the header */
+.header {
+  text-align: center; /* Center-align the header */
+}
+
+/* Styles for the header links */
+.header a {
+  margin: 0 1rem; /* Add some space between header links */
+}
+
+/* Styles for the page content */
+.page {
+  padding: 1rem; /* Add padding to the page content */
+  font-family: "Times New Roman", Times, serif; /* Set the font family for the page content */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.welcome-heading {
+  text-align: center;
+}
+
+.try-it-button {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* styles.css */
+
+/* Styles for the "Try It" button */
+.try-it-button button {
+  width: 200px; /* Set the width of the button */
+  padding: 10px 20px; /* Adjust padding for a fatter button */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  background-color: #fce4ec; /* Set background color */
+  color: #000; /* Set text color */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Set font weight */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s; /* Add smooth transition for background color change */
+}
+
+.try-it-button button:hover {
+  background-color: #f8bbd0; /* Change background color on hover */
+}
+
+.home-container,
+.team-container {
+  width: 100%; /* Ensure image fills the entire width of the container */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image,
+.team-image {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  max-height: 100%; /* Ensure image does not exceed container height */
+  object-fit: contain; /* Fit image inside its container while preserving aspect ratio */
+}
+
+.video-player {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.centered-button-container {
+  display: flex;
+  justify-content: center;
+}
